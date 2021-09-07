@@ -26,8 +26,8 @@ if add_pepperoni == 'y' or add_pepperoni == 'Y':
         bill += 3
 if extra_cheese == 'y' or extra_cheese == 'Y' :
     bill += 1
-print("******************************")
+print("*******************************")
 print(f"your final bill is {bill}")
-print("******************************")
+print("*******************************")
 
 
