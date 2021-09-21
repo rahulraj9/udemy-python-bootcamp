@@ -5,3 +5,4 @@ elif num == 1:
     print(f"{num} is not an even not an odd")
 else:
     print(f"{num} is odd")
+
