@@ -57,4 +57,3 @@ elif gamer_choice == 1 and computer_choice == 2 or gamer_choice == 2 and compute
 
 else:
     print("You win")
-
