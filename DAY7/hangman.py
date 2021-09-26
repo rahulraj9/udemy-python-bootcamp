@@ -1,6 +1,13 @@
+import platform
+print(platform.system())
 import random
 from wordlist import word_list
 from stage import stages
+from hangmanlogo import logo
+from clear import screen_clear
+
+screen_clear()
+print(logo)
 
 random_word = random.choice(word_list)
 length_of_random_word = len(random_word)
@@ -18,6 +25,7 @@ end_of_game = False
 
 while not end_of_game:
     user_input = input(f"Guess the word of {length_of_random_word} letters ").lower()
+    screen_clear()
 
     for position in range(len(random_word)):
         letter = random_word[position]
